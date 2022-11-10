@@ -1,0 +1,2 @@
+# @ashita-teamCo/eslint-config
+
