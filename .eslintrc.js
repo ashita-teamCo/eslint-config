@@ -4,5 +4,11 @@ module.exports = {
     node: true,
     es6: true
   },
-  extends: ["./index.js"]
+  extends: ["./index.js"],
+  overrides: [
+    {
+      files: ["*.graphql"],
+      extends: ["./graphql-schema.js"]
+    }
+  ]
 }
