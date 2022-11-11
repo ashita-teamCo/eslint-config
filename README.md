@@ -26,12 +26,13 @@ Add a following `.eslintrc` in your project.
 
 ```json
 {
-  "extends": [
-    "@ashita-team",
-    "@ashita-team/eslint-config/ts-requiring-type-checking"
-  ],
-  "parserOptions": {
-    "project": ["./tsconfig.json"]
+  "extends": ["@ashita-team"],
+  "overrides": {
+    "files": ["src/**/*.ts", "tests/**/*.ts"],
+    "extends": ["@ashita-team/eslint-config/ts-requiring-type-checking"],
+    "parserOptions": {
+      "project": ["./tsconfig.json"]
+    }
   }
 }
 ```
