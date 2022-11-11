@@ -1,22 +1,23 @@
 {
   "name": "@ashita-team/eslint-config",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A sharable ESLint config for ASHITA-TEAM",
+  "keywords": [
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/ashita-teamCo/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashita-teamCo/eslint-config.git"
   },
-  "keywords": [],
-  "author": "ASHITA-TEAM Co.,Ltd.",
   "license": "MIT",
-  "volta": {
-    "node": "18.12.1",
-    "yarn": "1.22.9"
-  },
-  "devDependencies": {
-    "eslint": "^8.27.0",
-    "graphql": "^16.6.0",
-    "typescript": "^4.8.4"
+  "author": "ASHITA-TEAM Co.,Ltd.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint '**/*.js' ."
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^3.13.1",
@@ -24,8 +25,17 @@
     "@typescript-eslint/parser": "^5.42.1",
     "eslint-plugin-import": "^2.26.0"
   },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "graphql": "^16.6.0",
+    "typescript": "^4.8.4"
+  },
   "peerDependencies": {
     "eslint": "^8.0.0",
     "typescript": "^4.0.0"
+  },
+  "volta": {
+    "node": "18.12.1",
+    "yarn": "1.22.9"
   }
 }
