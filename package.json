@@ -1,6 +1,6 @@
 {
   "name": "@ashita-team/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A sharable ESLint config for ASHITA-TEAM",
   "keywords": [
     "eslint-config"
