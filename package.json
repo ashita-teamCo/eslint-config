@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "ASHITA-TEAM Co.,Ltd.",
-  "license": "MIT"
+  "license": "MIT",
+  "volta": {
+    "node": "18.12.1",
+    "yarn": "1.22.9"
+  }
 }
