@@ -4,4 +4,15 @@ module.exports = {
     "import/newline-after-import": "warn",
     "import/order": "warn",
   },
+  settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
+    "import/resolver": {
+      typescript: {
+        alwaysTryTypes: true,
+        project: ".",
+      },
+    },
+  },
 };
