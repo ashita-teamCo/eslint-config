@@ -20,10 +20,10 @@
     "lint": "eslint '**/*.js' ."
   },
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.18.0",
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
-    "eslint-import-resolver-typescript": "^3.5.4",
+    "@graphql-eslint/eslint-plugin": "^3.19.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5"
   },
   "devDependencies": {
