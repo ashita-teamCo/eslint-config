@@ -1,8 +1,9 @@
 module.exports = {
-  extends: ["plugin:@typescript-eslint/recommended-requiring-type-checking"],
+  extends: [
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:@typescript-eslint/stylistic-type-checked",
+  ],
   rules: {
-    "@typescript-eslint/no-unsafe-member-access": "error",
-    "@typescript-eslint/no-unsafe-assignment": "error",
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
       "error",
       {
@@ -11,7 +12,6 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-unnecessary-condition": "error",
-    "@typescript-eslint/restrict-template-expressions": "error",
     "@typescript-eslint/consistent-type-exports": [
       "error",
       {
