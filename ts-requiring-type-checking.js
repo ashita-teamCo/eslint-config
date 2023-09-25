@@ -18,6 +18,15 @@ module.exports = {
         fixMixedExportsWithInlineTypeSpecifier: false,
       },
     ],
-    "@typescript-eslint/prefer-optional-chain": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": [
+      "error",
+      {
+        ignoreConditionalTests: true,
+        ignoreMixedLogicalExpressions: true,
+        ignorePrimitives: {
+          string: true,
+        },
+      },
+    ],
   },
 };
