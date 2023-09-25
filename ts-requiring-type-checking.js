@@ -18,5 +18,6 @@ module.exports = {
         fixMixedExportsWithInlineTypeSpecifier: false,
       },
     ],
+    "@typescript-eslint/prefer-optional-chain": "off",
   },
 };
