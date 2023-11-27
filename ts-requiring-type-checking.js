@@ -24,6 +24,7 @@ module.exports = {
         ignoreConditionalTests: true,
         ignoreMixedLogicalExpressions: true,
         ignorePrimitives: {
+          boolean: true,
           string: true,
         },
       },
