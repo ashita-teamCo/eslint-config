@@ -6,6 +6,7 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
   rules: {
+    "no-console": ["error", { allow: ["warn", "error"] }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/consistent-type-imports": [
       "warn",
