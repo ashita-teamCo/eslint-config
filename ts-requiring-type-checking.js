@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:@typescript-eslint/strict-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
   ],
   rules: {
@@ -24,6 +24,7 @@ module.exports = {
         ignoreConditionalTests: true,
         ignoreMixedLogicalExpressions: true,
         ignorePrimitives: {
+          boolean: true,
           string: true,
         },
       },
