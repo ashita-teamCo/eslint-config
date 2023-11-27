@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/strict",
     "plugin:@typescript-eslint/stylistic",
   ],
   plugins: ["@typescript-eslint"],
