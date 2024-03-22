@@ -37,62 +37,6 @@ Add a following `.eslintrc` in your project.
 }
 ```
 
-### Use GraphQL config
-
-Install [graphql](https://www.npmjs.com/package/graphql) package.
-
-```sh
-yarn add graphql
-```
-
-Add a following `.eslintrc` in your project.
-
-```json
-{
-  "overrides": [
-    {
-      "files": ["*.graphql"],
-      "extends": ["@ashita-team/eslint-config/graphql-schema"]
-    }
-  ]
-}
-```
-
-```json
-{
-  "overrides": [
-    {
-      "files": ["*.graphql"],
-      "extends": ["@ashita-team/eslint-config/graphql-operation"]
-    }
-  ]
-}
-```
-
-Create [GraphQL Config](https://www.the-guild.dev/graphql/config).
-
-```js
-// graphql.config.js
-module.exports = {
-  schema: "examples/graphql/**/*.graphql",
-  documents: "examples/graphql/queries/**/*.graphql",
-};
-```
-
-If you wish to use [VSCode ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), add the following settings to your project's `.vscode/settings.json` file.
-
-```json
-{
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "graphql"
-  ]
-}
-```
-
 ### Use import config
 
 Add a following `.eslintrc` in your project.
